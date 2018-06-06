@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "scripts": {
     "start": "node src/index.js",
-    "timeline": "node src/timeline.js"
+    "timeline": "node src/timeline.js",
+    "chai": "node src/chaitest.js"
   },
   "description": "chrome dev tool testing",
   "main": "index.js",
   "author": "harman",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.1.2",
     "chrome-remote-interface": "^0.25.6"
   }
 }
