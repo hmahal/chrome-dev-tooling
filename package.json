@@ -2,8 +2,8 @@
   "name": "chrome-dev-tooling",
   "version": "0.0.0",
   "scripts": {
-    "start": "node index.js",
-    "timeline": "node timeline.js"
+    "start": "node src/index.js",
+    "timeline": "node src/timeline.js"
   },
   "description": "chrome dev tool testing",
   "main": "index.js",
